@@ -4,7 +4,7 @@ set -e
 
 cd deps
 
-curl -L --url https://github.com/Microsoft/GSL/archive/5905d2d77467d9daa18fe711b55e2db7a30fe3e3.zip --output GSL.zip
+curl -L --url https://github.com/martinmoene/gsl-lite/archive/v0.29.0.zip --output GSL.zip
 curl -L --url https://github.com/comphack/zlib/archive/comp_hack-20161214.zip --output zlib.zip
 curl -L --url https://github.com/comphack/openssl/archive/comp_hack-20171022.zip --output openssl.zip
 curl -L --url https://github.com/comphack/mariadb/archive/comp_hack-20170530.zip --output mariadb.zip

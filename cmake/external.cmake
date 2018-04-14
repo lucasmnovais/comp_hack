@@ -30,13 +30,13 @@ IF(EXISTS "${CMAKE_SOURCE_DIR}/deps/GSL.zip")
     )
 ELSEIF(GIT_DEPENDENCIES)
     SET(GSL_URL
-        GIT_REPOSITORY https://github.com/Microsoft/GSL.git
+        GIT_REPOSITORY https://github.com/martinmoene/gsl-lite.git
         GIT_TAG master
     )
 ELSE()
     SET(GSL_URL
-        URL https://github.com/Microsoft/GSL/archive/5905d2d77467d9daa18fe711b55e2db7a30fe3e3.zip
-        URL_HASH SHA1=a2d2c6bfe101be3ef80d9c69e3361f164517e7b9
+        URL https://github.com/martinmoene/gsl-lite/archive/v0.29.0.zip
+        URL_HASH SHA1=22df644f0b01045905a62e29224073b22f80d9b6
     )
 ENDIF()
 
